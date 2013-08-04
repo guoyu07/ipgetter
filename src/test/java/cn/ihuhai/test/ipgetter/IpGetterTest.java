@@ -1,5 +1,6 @@
 package cn.ihuhai.test.ipgetter;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import cn.ihuhai.ipgetter.IpGetter;
@@ -10,6 +11,7 @@ public class IpGetterTest {
 	
 
 	@Test
+	@Ignore
 	public void testTpLinkIpGetter(){
 		IpGetter getter = new TpLinkIpGetter();
 		System.out.println(getter.getIp());
